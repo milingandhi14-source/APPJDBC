@@ -4,7 +4,7 @@ import java.sql.*;
 public class faulty {
     private static String URL="jdbc:mysql://localhost:3306/mydb";
     private static String USER="root";
-    private static String PASSWORD="Miling@ndhi717";
+    private static String PASSWORD="";
 
     public static void main(String[] args) {
         try(Connection conn= DriverManager.getConnection(URL,USER,PASSWORD)){
